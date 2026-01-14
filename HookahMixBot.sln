@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HookahMixBot", "HookahMixBot\HookahMixBot.csproj", "{C7D8079B-7A09-4C9B-82CF-24864FA95480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HookahMixBot.Core", "HookahMixBot.Core\HookahMixBot.Core.csproj", "{7665F474-697F-49FB-B2F3-3C85439D6518}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HookahMixBot.Infrastructure", "HookahMixBot.Infrastructure\HookahMixBot.Infrastructure.csproj", "{5289D00C-619E-4B3E-91A6-CAEAABE615EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HookahMixBot.Application", "HookahMixBot.Application\HookahMixBot.Application.csproj", "{C33DFAF7-6D07-4E8E-9714-245E71CEB0C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HookMixBot.Telegram", "HookMixBot.Telegram\HookMixBot.Telegram.csproj", "{43A2FB3F-CE27-4756-BD70-7D4BEA4AD3EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7D8079B-7A09-4C9B-82CF-24864FA95480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D8079B-7A09-4C9B-82CF-24864FA95480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D8079B-7A09-4C9B-82CF-24864FA95480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D8079B-7A09-4C9B-82CF-24864FA95480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7665F474-697F-49FB-B2F3-3C85439D6518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7665F474-697F-49FB-B2F3-3C85439D6518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7665F474-697F-49FB-B2F3-3C85439D6518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7665F474-697F-49FB-B2F3-3C85439D6518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5289D00C-619E-4B3E-91A6-CAEAABE615EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5289D00C-619E-4B3E-91A6-CAEAABE615EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5289D00C-619E-4B3E-91A6-CAEAABE615EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5289D00C-619E-4B3E-91A6-CAEAABE615EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C33DFAF7-6D07-4E8E-9714-245E71CEB0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33DFAF7-6D07-4E8E-9714-245E71CEB0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C33DFAF7-6D07-4E8E-9714-245E71CEB0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C33DFAF7-6D07-4E8E-9714-245E71CEB0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A2FB3F-CE27-4756-BD70-7D4BEA4AD3EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A2FB3F-CE27-4756-BD70-7D4BEA4AD3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A2FB3F-CE27-4756-BD70-7D4BEA4AD3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A2FB3F-CE27-4756-BD70-7D4BEA4AD3EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
