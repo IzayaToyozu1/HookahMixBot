@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("HookahMixBot.Application")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("HookahMixBot.Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23d65ead82f0cc2b5fe8372671538f7f1fdf7328")]
-[assembly: System.Reflection.AssemblyProductAttribute("HookahMixBot.Application")]
-[assembly: System.Reflection.AssemblyTitleAttribute("HookahMixBot.Application")]
+[assembly: System.Reflection.AssemblyProductAttribute("HookahMixBot.Console")]
+[assembly: System.Reflection.AssemblyTitleAttribute("HookahMixBot.Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
