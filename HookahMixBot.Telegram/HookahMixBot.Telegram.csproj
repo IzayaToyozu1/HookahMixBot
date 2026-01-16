@@ -15,4 +15,9 @@
       <ProjectReference Include="..\HookahMixBot.Application\HookahMixBot.Application.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Keyboards\" />
+      <Folder Include="Services\" />
+    </ItemGroup>
+
 </Project>
