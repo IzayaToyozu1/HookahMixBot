@@ -7,4 +7,5 @@ public interface IMixRepository: IRepository<Mix>
     Task<IEnumerable<Mix>> GetByTobaccoBrandAsync(string brand);
     Task<IEnumerable<Mix>> SearchAsync(string query);
     Task<IEnumerable<Mix>> GetTopRatedAsync(int count);
+    Task<IEnumerable<Mix>> GetByUserAsync(int userId);
 }

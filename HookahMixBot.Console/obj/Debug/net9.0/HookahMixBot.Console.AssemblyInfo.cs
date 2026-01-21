@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HookahMixBot.Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c147b2d733570be6d576d82afccbff31e934d0cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0616c71fa0de9965087890bad0ee634362bcae43")]
 [assembly: System.Reflection.AssemblyProductAttribute("HookahMixBot.Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HookahMixBot.Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

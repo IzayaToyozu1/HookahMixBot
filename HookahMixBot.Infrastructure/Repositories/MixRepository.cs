@@ -50,4 +50,9 @@ public class MixRepository : IMixRepository
     {
         throw new NotImplementedException();
     }
+
+    public Task<IEnumerable<Mix>> GetByUserAsync(int userId)
+    {
+        throw new NotImplementedException();
+    }
 }

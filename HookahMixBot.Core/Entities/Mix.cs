@@ -8,8 +8,8 @@ public class Mix
     public List<Tobacco> Tobaccos { get; set; }
     public double BowPercentage { get; set; }
     
-    public int CreateByUserUd { get; set; }
-    public User CreateBy { get; set; }
+    public int CreatedByUserUd { get; set; }
+    public UserBot CreatedBy { get; set; }
 
     public DateTime CreatedAt { get; set; }
     public bool IsPublic { get; set; }

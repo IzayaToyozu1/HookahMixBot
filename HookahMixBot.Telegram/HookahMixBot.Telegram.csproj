@@ -16,7 +16,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Keyboards\" />
       <Folder Include="Services\" />
     </ItemGroup>
 
