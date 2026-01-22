@@ -1,6 +1,7 @@
 ﻿using HookahMixBot.Application.Commands;
 using HookahMixBot.Application.Service;
 using HookahMixBot.Core.Entities;
+using HookMixBot.Telegram.Keyboards;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
@@ -30,13 +31,20 @@ public class CommandHandler : ITelegramUpdateHandler
     
     public async Task HandleUpdateAsync(Update update)
     {
+        UserBot userBot = await _userService.GetOrCreateUserAsync(
+            telegramId: update.Message.From.Id,
+            name: update.Message.From.Username);
         if (update.Message?.Text != null)
         {
             var command = update.Message.Text.Split(' ')[0].ToLower();
-
+            
             if (_commands.ContainsKey(command))
             {
-                await _commands[command](update.Message);
+                await _commands[command](update.Message, userBot);
+            }
+            else
+            {
+                
             }
         }
     }
@@ -66,7 +74,7 @@ public class CommandHandler : ITelegramUpdateHandler
         var profileText = $"""
                             📊 <b>Профиль пользователя</b>
 
-                            🔖 Username: @{{user.Username}}
+                            🔖 Username: {{user.Username}}
                             🆔 Telegram ID: {{user.TelegramId}}
                             📅 Дата регистрации: {{user.RegistrationDate:dd.MM.yyyy}}
                             ⭐ Роль: {{user.Role}}
@@ -81,6 +89,6 @@ public class CommandHandler : ITelegramUpdateHandler
             chatId: message.Chat.Id,
             text: profileText,
             parseMode: ParseMode.Html,
-            replyMarkup: GetProfileKeyboard());
+            replyMarkup: TelegramKeyboards.GetProfileKeyboard());
     }
 }

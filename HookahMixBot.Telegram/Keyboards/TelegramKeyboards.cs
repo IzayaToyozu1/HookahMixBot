@@ -38,6 +38,27 @@ public static class TelegramKeyboards
                 InlineKeyboardButton.WithCallbackData("Добавить в избранное", $"fav_{mixId}"),
                 InlineKeyboardButton.WithCallbackData("Оценить", $"rate_{mixId}"),
             },
+            new[]
+            {
+              InlineKeyboardButton.WithCallbackData("Редактировать", $"edit_{mixId}"),
+              InlineKeyboardButton.WithCallbackData("Удалить", $"delete_{mixId}"), 
+            },
+        });
+    }
+
+    public static InlineKeyboardMarkup GetProfileKeyboard()
+    {
+        return new InlineKeyboardMarkup(new[]
+        {
+            new[]
+            {
+                InlineKeyboardButton.WithCallbackData("Настройки", "settings"), 
+            },
+            new[]
+            {
+                InlineKeyboardButton.WithCallbackData("Статистика", "stats"),
+                InlineKeyboardButton.WithCallbackData("Экспорт", "export"), 
+            }
         });
     }
 }
